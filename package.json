@@ -1,0 +1,15 @@
+{
+  "name": "playwright-project",
+  "version": "0.1.0",
+  "description": "Playwright test project",
+  "main": "verifysetup.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "verify": "node verifysetup.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.36.0"
+  }
+}
